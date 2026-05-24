@@ -21,8 +21,8 @@ def main():
     port = int(os.environ.get("PORT", 8080))
     webhook_url = f"https://{os.environ.get('RENDER_EXTERNAL_HOSTNAME')}/webhook"
     
-    print(f"Порт: {port}, URL: {webhook_url}")
-    app.run_webhook(listen="0.0.0.0", port=port, webhook_url=webhook_url)
+        print("Бот запущен на polling")
+    app.run_polling()
 
 if __name__ == "__main__":
     main()
