@@ -1,2 +1,2 @@
 python-telegram-bot
-faker
+faker==24.0.0
