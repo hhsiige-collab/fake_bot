@@ -1,7 +1,6 @@
 from faker import Faker
 import random
-import json
-from datetime import datetime, timedelta
+from datetime import datetime
 
 fake = Faker('ru_RU')  # Русскоязычные данные
 
